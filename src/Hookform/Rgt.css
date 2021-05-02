@@ -1,0 +1,33 @@
+body{
+    /* background-image: url("https://i.pinimg.com/originals/93/20/33/9320330be84c5b67f4008d19bf4599de.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media (min-width: 1200px) {
+    .container{
+        max-width: 500px;
+    }
+  }
+  .container{
+    border: 2px solid rgb(13, 13, 14);
+    width: 400px;
+  }
+
+.btn btn-primary w-50{
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  border:2px solid red;
+  border-radius: 5px;
+}
+
+.btn btn-primary w-50:hover{
+  transition: ease-in 0.2s;
+  background-color: red;
+}
